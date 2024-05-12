@@ -1,0 +1,29 @@
+[gd_scene format=3 uid="uid://cuxaj43xdggjn"]
+
+[node name="Game" type="Node2D"]
+
+[node name="Background" type="Node2D" parent="."]
+
+[node name="ColorRect" type="ColorRect" parent="Background"]
+offset_right = 576.0
+offset_bottom = 1040.0
+color = Color(0.878431, 0.878431, 0.878431, 1)
+
+[node name="UI" type="Node2D" parent="Background"]
+
+[node name="Title" type="Label" parent="Background/UI"]
+offset_right = 576.0
+offset_bottom = 80.0
+theme_override_colors/font_color = Color(0.290196, 0.67451, 0.564706, 1)
+theme_override_font_sizes/font_size = 80
+text = "SimpleFall"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Score" type="Node2D" parent="Background"]
+
+[node name="Buttons" type="Node2D" parent="Background"]
+
+[node name="Emitters" type="Node2D" parent="Background"]
+
+[node name="Globals" type="Node2D" parent="Background"]
